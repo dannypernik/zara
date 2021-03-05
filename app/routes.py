@@ -17,11 +17,6 @@ def before_request():
 @app.route('/index', methods=['GET', 'POST'])
 def index():
     form = InquiryForm()
-    alert = Markup('Since 2015, Open Path tutors have strived to provide the \
-    best online tutoring experience available. Now more than ever, effective \
-    virtual learning strategies are essential for success. It is our privilege \
-    to serve students of all income levels during this challenging time. \
-    Please <a href="#contact">contact us</a> for more details.')
     if form.validate_on_submit():
         user = User(first_name=form.first_name.data, email=form.email.data, phone=form.phone.data)
         message = form.message.data
