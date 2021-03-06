@@ -25,7 +25,7 @@ def index():
         send_inquiry_email(user, message)
         alert = "Thank you for your message. We will be in touch!"
         print(app.config['ADMINS'])
-    flash(alert)
+        flash(alert)
     return render_template('index.html', form=form)
 
 @app.route('/about')

@@ -189,10 +189,6 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
   font-size: calc(1.75rem + 2vw);
 }
 
-.content {
-  flex: 1 0 auto;
-}
-
 .footer {
   padding: 20px;
   background-color: $primary-color;
@@ -259,9 +255,11 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 // X-large backgrounds //
 
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/student-xl.webp) center top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .3)), url(../img/coals.jpg) center bottom no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 
 #free-trial {
@@ -273,18 +271,16 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 // Med-Large backgrounds //
 @media screen and (max-width: 1200px) {
   #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/student-lg.webp);
   }
 
   #free-trial {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/student2-lg.webp);
   }
 }
 
 // Mobile backgrounds //
 @media screen and (max-width: 575px) {
   #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/student.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/kebabs-temp.jpg);
     background-attachment: scroll;
   }
 
@@ -298,7 +294,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
   position: relative;
   display: block;
   margin: 2rem auto calc(3rem);
-  height: calc(80px + 3vw);
+  height: calc(280px + 3vw);
 }
 
 #home-title {
@@ -361,7 +357,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 
 .home-next {
   display: table;
-  margin: calc(2rem + 1vw) auto 3rem;
+  margin: calc(5rem + 1vw) auto 3rem;
   text-align: center;
 }
 
