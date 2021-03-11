@@ -5872,9 +5872,11 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
 }
 
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/coals.jpg) center bottom no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals2.jpg) center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -5887,7 +5889,7 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
 
 @media screen and (max-width: 575px) {
   #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/kebabs-temp.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals2.jpg);
     background-attachment: scroll;
   }
 
@@ -5899,7 +5901,7 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
 #home-logo {
   position: relative;
   display: block;
-  margin: 2rem auto calc(3rem);
+  margin: 15rem auto calc(3rem);
   height: calc(280px + 3vw);
 }
 
@@ -5946,7 +5948,6 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
 .home-section {
   min-height: 100vh;
   overflow: auto;
-  padding-top: calc(4rem + 3vw);
 }
 
 .home-section button {
@@ -5961,9 +5962,32 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
   color: white;
 }
 
+#food {
+  overflow: unset;
+}
+
+.sticky-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #333333;
+}
+
+#food-header {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0 0 25px;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  margin: 25px 15px 0 0;
+  width: 85px;
+}
+
 .home-next {
   display: table;
-  margin: calc(5rem + 1vw) auto 3rem;
+  margin: calc(5rem + 1vw) auto 0;
   text-align: center;
 }
 
