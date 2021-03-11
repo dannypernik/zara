@@ -5901,7 +5901,7 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
 #home-logo {
   position: relative;
   display: block;
-  margin: 15rem auto calc(3rem);
+  margin: 0rem auto calc(3rem);
   height: calc(280px + 3vw);
 }
 
