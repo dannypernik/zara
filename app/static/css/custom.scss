@@ -255,7 +255,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 // X-large backgrounds //
 
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals2.jpg) center top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals-xl.jpg) right center no-repeat;
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -265,7 +265,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 }
 
 #free-trial {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/student2-xl.webp) center top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/coals.jpg) center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -273,6 +273,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 // Med-Large backgrounds //
 @media screen and (max-width: 1200px) {
   #home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals-lg.jpg) center bottom no-repeat;
   }
 
   #free-trial {
@@ -282,7 +283,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 // Mobile backgrounds //
 @media screen and (max-width: 575px) {
   #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals.jpg);
     background-attachment: scroll;
   }
 
@@ -365,6 +366,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
   position: sticky;
   top: 0;
   border-bottom: 1px solid #333333;
+  background-color: #333;
 }
 
 #food-header {
@@ -376,12 +378,17 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 
 .header-item {
   margin: 25px 15px 0 0;
-  width: 85px;
+  min-width: 85px;
+  width: 12vw;
+}
+
+.header-item a {
+  color: white;
 }
 
 .home-next {
   display: table;
-  margin: calc(5rem + 1vw) auto 0;
+  margin: calc(5rem + 1vw) auto 5rem;
   text-align: center;
 }
 
