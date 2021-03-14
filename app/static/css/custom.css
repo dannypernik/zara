@@ -6011,6 +6011,18 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
   padding-top: 133px;
 }
 
+@media screen and (max-width: 833px) {
+  .food-title {
+    margin-top: -99px;
+    padding-top: 144px;
+  }
+}
+@media screen and (max-width: 449px) {
+  .food-title {
+    margin-top: -137px;
+    padding-top: 177px;
+  }
+}
 .home-next {
   display: table;
   margin: calc(5rem + 1vw) auto 5rem;
