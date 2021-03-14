@@ -836,11 +836,11 @@ progress {
 }
 
 .gap-1 {
-  gap: 0.5rem !important;
+  gap: 1rem !important;
 }
 
 .gap-2 {
-  gap: 1rem !important;
+  gap: 1.5rem !important;
 }
 
 .gap-3 {
@@ -984,11 +984,11 @@ progress {
 }
 
 .m-1 {
-  margin: 0.5rem !important;
+  margin: 1rem !important;
 }
 
 .m-2 {
-  margin: 1rem !important;
+  margin: 1.5rem !important;
 }
 
 .m-3 {
@@ -1013,13 +1013,13 @@ progress {
 }
 
 .mx-1 {
-  margin-right: 0.5rem !important;
-  margin-left: 0.5rem !important;
+  margin-right: 1rem !important;
+  margin-left: 1rem !important;
 }
 
 .mx-2 {
-  margin-right: 1rem !important;
-  margin-left: 1rem !important;
+  margin-right: 1.5rem !important;
+  margin-left: 1.5rem !important;
 }
 
 .mx-3 {
@@ -1048,13 +1048,13 @@ progress {
 }
 
 .my-1 {
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .my-2 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .my-3 {
@@ -1082,11 +1082,11 @@ progress {
 }
 
 .mt-1 {
-  margin-top: 0.5rem !important;
+  margin-top: 1rem !important;
 }
 
 .mt-2 {
-  margin-top: 1rem !important;
+  margin-top: 1.5rem !important;
 }
 
 .mt-3 {
@@ -1110,11 +1110,11 @@ progress {
 }
 
 .me-1 {
-  margin-right: 0.5rem !important;
+  margin-right: 1rem !important;
 }
 
 .me-2 {
-  margin-right: 1rem !important;
+  margin-right: 1.5rem !important;
 }
 
 .me-3 {
@@ -1138,11 +1138,11 @@ progress {
 }
 
 .mb-1 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .mb-2 {
-  margin-bottom: 1rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .mb-3 {
@@ -1166,11 +1166,11 @@ progress {
 }
 
 .ms-1 {
-  margin-left: 0.5rem !important;
+  margin-left: 1rem !important;
 }
 
 .ms-2 {
-  margin-left: 1rem !important;
+  margin-left: 1.5rem !important;
 }
 
 .ms-3 {
@@ -1194,11 +1194,11 @@ progress {
 }
 
 .p-1 {
-  padding: 0.5rem !important;
+  padding: 1rem !important;
 }
 
 .p-2 {
-  padding: 1rem !important;
+  padding: 1.5rem !important;
 }
 
 .p-3 {
@@ -1219,13 +1219,13 @@ progress {
 }
 
 .px-1 {
-  padding-right: 0.5rem !important;
-  padding-left: 0.5rem !important;
+  padding-right: 1rem !important;
+  padding-left: 1rem !important;
 }
 
 .px-2 {
-  padding-right: 1rem !important;
-  padding-left: 1rem !important;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
 }
 
 .px-3 {
@@ -1249,13 +1249,13 @@ progress {
 }
 
 .py-1 {
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .py-2 {
-  padding-top: 1rem !important;
-  padding-bottom: 1rem !important;
+  padding-top: 1.5rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 .py-3 {
@@ -1278,11 +1278,11 @@ progress {
 }
 
 .pt-1 {
-  padding-top: 0.5rem !important;
+  padding-top: 1rem !important;
 }
 
 .pt-2 {
-  padding-top: 1rem !important;
+  padding-top: 1.5rem !important;
 }
 
 .pt-3 {
@@ -1302,11 +1302,11 @@ progress {
 }
 
 .pe-1 {
-  padding-right: 0.5rem !important;
+  padding-right: 1rem !important;
 }
 
 .pe-2 {
-  padding-right: 1rem !important;
+  padding-right: 1.5rem !important;
 }
 
 .pe-3 {
@@ -1326,11 +1326,11 @@ progress {
 }
 
 .pb-1 {
-  padding-bottom: 0.5rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pb-2 {
-  padding-bottom: 1rem !important;
+  padding-bottom: 1.5rem !important;
 }
 
 .pb-3 {
@@ -1350,11 +1350,11 @@ progress {
 }
 
 .ps-1 {
-  padding-left: 0.5rem !important;
+  padding-left: 1rem !important;
 }
 
 .ps-2 {
-  padding-left: 1rem !important;
+  padding-left: 1.5rem !important;
 }
 
 .ps-3 {
@@ -1778,11 +1778,11 @@ progress {
   }
 
   .gap-sm-1 {
-    gap: 0.5rem !important;
+    gap: 1rem !important;
   }
 
   .gap-sm-2 {
-    gap: 1rem !important;
+    gap: 1.5rem !important;
   }
 
   .gap-sm-3 {
@@ -1926,11 +1926,11 @@ progress {
   }
 
   .m-sm-1 {
-    margin: 0.5rem !important;
+    margin: 1rem !important;
   }
 
   .m-sm-2 {
-    margin: 1rem !important;
+    margin: 1.5rem !important;
   }
 
   .m-sm-3 {
@@ -1955,13 +1955,13 @@ progress {
   }
 
   .mx-sm-1 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
 
   .mx-sm-2 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .mx-sm-3 {
@@ -1990,13 +1990,13 @@ progress {
   }
 
   .my-sm-1 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .my-sm-2 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .my-sm-3 {
@@ -2024,11 +2024,11 @@ progress {
   }
 
   .mt-sm-1 {
-    margin-top: 0.5rem !important;
+    margin-top: 1rem !important;
   }
 
   .mt-sm-2 {
-    margin-top: 1rem !important;
+    margin-top: 1.5rem !important;
   }
 
   .mt-sm-3 {
@@ -2052,11 +2052,11 @@ progress {
   }
 
   .me-sm-1 {
-    margin-right: 0.5rem !important;
+    margin-right: 1rem !important;
   }
 
   .me-sm-2 {
-    margin-right: 1rem !important;
+    margin-right: 1.5rem !important;
   }
 
   .me-sm-3 {
@@ -2080,11 +2080,11 @@ progress {
   }
 
   .mb-sm-1 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .mb-sm-2 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .mb-sm-3 {
@@ -2108,11 +2108,11 @@ progress {
   }
 
   .ms-sm-1 {
-    margin-left: 0.5rem !important;
+    margin-left: 1rem !important;
   }
 
   .ms-sm-2 {
-    margin-left: 1rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .ms-sm-3 {
@@ -2136,11 +2136,11 @@ progress {
   }
 
   .p-sm-1 {
-    padding: 0.5rem !important;
+    padding: 1rem !important;
   }
 
   .p-sm-2 {
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
 
   .p-sm-3 {
@@ -2161,13 +2161,13 @@ progress {
   }
 
   .px-sm-1 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
 
   .px-sm-2 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .px-sm-3 {
@@ -2191,13 +2191,13 @@ progress {
   }
 
   .py-sm-1 {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .py-sm-2 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .py-sm-3 {
@@ -2220,11 +2220,11 @@ progress {
   }
 
   .pt-sm-1 {
-    padding-top: 0.5rem !important;
+    padding-top: 1rem !important;
   }
 
   .pt-sm-2 {
-    padding-top: 1rem !important;
+    padding-top: 1.5rem !important;
   }
 
   .pt-sm-3 {
@@ -2244,11 +2244,11 @@ progress {
   }
 
   .pe-sm-1 {
-    padding-right: 0.5rem !important;
+    padding-right: 1rem !important;
   }
 
   .pe-sm-2 {
-    padding-right: 1rem !important;
+    padding-right: 1.5rem !important;
   }
 
   .pe-sm-3 {
@@ -2268,11 +2268,11 @@ progress {
   }
 
   .pb-sm-1 {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .pb-sm-2 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .pb-sm-3 {
@@ -2292,11 +2292,11 @@ progress {
   }
 
   .ps-sm-1 {
-    padding-left: 0.5rem !important;
+    padding-left: 1rem !important;
   }
 
   .ps-sm-2 {
-    padding-left: 1rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .ps-sm-3 {
@@ -2429,11 +2429,11 @@ progress {
   }
 
   .gap-md-1 {
-    gap: 0.5rem !important;
+    gap: 1rem !important;
   }
 
   .gap-md-2 {
-    gap: 1rem !important;
+    gap: 1.5rem !important;
   }
 
   .gap-md-3 {
@@ -2577,11 +2577,11 @@ progress {
   }
 
   .m-md-1 {
-    margin: 0.5rem !important;
+    margin: 1rem !important;
   }
 
   .m-md-2 {
-    margin: 1rem !important;
+    margin: 1.5rem !important;
   }
 
   .m-md-3 {
@@ -2606,13 +2606,13 @@ progress {
   }
 
   .mx-md-1 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
 
   .mx-md-2 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .mx-md-3 {
@@ -2641,13 +2641,13 @@ progress {
   }
 
   .my-md-1 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .my-md-2 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .my-md-3 {
@@ -2675,11 +2675,11 @@ progress {
   }
 
   .mt-md-1 {
-    margin-top: 0.5rem !important;
+    margin-top: 1rem !important;
   }
 
   .mt-md-2 {
-    margin-top: 1rem !important;
+    margin-top: 1.5rem !important;
   }
 
   .mt-md-3 {
@@ -2703,11 +2703,11 @@ progress {
   }
 
   .me-md-1 {
-    margin-right: 0.5rem !important;
+    margin-right: 1rem !important;
   }
 
   .me-md-2 {
-    margin-right: 1rem !important;
+    margin-right: 1.5rem !important;
   }
 
   .me-md-3 {
@@ -2731,11 +2731,11 @@ progress {
   }
 
   .mb-md-1 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .mb-md-2 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .mb-md-3 {
@@ -2759,11 +2759,11 @@ progress {
   }
 
   .ms-md-1 {
-    margin-left: 0.5rem !important;
+    margin-left: 1rem !important;
   }
 
   .ms-md-2 {
-    margin-left: 1rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .ms-md-3 {
@@ -2787,11 +2787,11 @@ progress {
   }
 
   .p-md-1 {
-    padding: 0.5rem !important;
+    padding: 1rem !important;
   }
 
   .p-md-2 {
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
 
   .p-md-3 {
@@ -2812,13 +2812,13 @@ progress {
   }
 
   .px-md-1 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
 
   .px-md-2 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .px-md-3 {
@@ -2842,13 +2842,13 @@ progress {
   }
 
   .py-md-1 {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .py-md-2 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .py-md-3 {
@@ -2871,11 +2871,11 @@ progress {
   }
 
   .pt-md-1 {
-    padding-top: 0.5rem !important;
+    padding-top: 1rem !important;
   }
 
   .pt-md-2 {
-    padding-top: 1rem !important;
+    padding-top: 1.5rem !important;
   }
 
   .pt-md-3 {
@@ -2895,11 +2895,11 @@ progress {
   }
 
   .pe-md-1 {
-    padding-right: 0.5rem !important;
+    padding-right: 1rem !important;
   }
 
   .pe-md-2 {
-    padding-right: 1rem !important;
+    padding-right: 1.5rem !important;
   }
 
   .pe-md-3 {
@@ -2919,11 +2919,11 @@ progress {
   }
 
   .pb-md-1 {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .pb-md-2 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .pb-md-3 {
@@ -2943,11 +2943,11 @@ progress {
   }
 
   .ps-md-1 {
-    padding-left: 0.5rem !important;
+    padding-left: 1rem !important;
   }
 
   .ps-md-2 {
-    padding-left: 1rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .ps-md-3 {
@@ -3080,11 +3080,11 @@ progress {
   }
 
   .gap-lg-1 {
-    gap: 0.5rem !important;
+    gap: 1rem !important;
   }
 
   .gap-lg-2 {
-    gap: 1rem !important;
+    gap: 1.5rem !important;
   }
 
   .gap-lg-3 {
@@ -3228,11 +3228,11 @@ progress {
   }
 
   .m-lg-1 {
-    margin: 0.5rem !important;
+    margin: 1rem !important;
   }
 
   .m-lg-2 {
-    margin: 1rem !important;
+    margin: 1.5rem !important;
   }
 
   .m-lg-3 {
@@ -3257,13 +3257,13 @@ progress {
   }
 
   .mx-lg-1 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
 
   .mx-lg-2 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .mx-lg-3 {
@@ -3292,13 +3292,13 @@ progress {
   }
 
   .my-lg-1 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .my-lg-2 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .my-lg-3 {
@@ -3326,11 +3326,11 @@ progress {
   }
 
   .mt-lg-1 {
-    margin-top: 0.5rem !important;
+    margin-top: 1rem !important;
   }
 
   .mt-lg-2 {
-    margin-top: 1rem !important;
+    margin-top: 1.5rem !important;
   }
 
   .mt-lg-3 {
@@ -3354,11 +3354,11 @@ progress {
   }
 
   .me-lg-1 {
-    margin-right: 0.5rem !important;
+    margin-right: 1rem !important;
   }
 
   .me-lg-2 {
-    margin-right: 1rem !important;
+    margin-right: 1.5rem !important;
   }
 
   .me-lg-3 {
@@ -3382,11 +3382,11 @@ progress {
   }
 
   .mb-lg-1 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .mb-lg-2 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .mb-lg-3 {
@@ -3410,11 +3410,11 @@ progress {
   }
 
   .ms-lg-1 {
-    margin-left: 0.5rem !important;
+    margin-left: 1rem !important;
   }
 
   .ms-lg-2 {
-    margin-left: 1rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .ms-lg-3 {
@@ -3438,11 +3438,11 @@ progress {
   }
 
   .p-lg-1 {
-    padding: 0.5rem !important;
+    padding: 1rem !important;
   }
 
   .p-lg-2 {
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
 
   .p-lg-3 {
@@ -3463,13 +3463,13 @@ progress {
   }
 
   .px-lg-1 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
 
   .px-lg-2 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .px-lg-3 {
@@ -3493,13 +3493,13 @@ progress {
   }
 
   .py-lg-1 {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .py-lg-2 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .py-lg-3 {
@@ -3522,11 +3522,11 @@ progress {
   }
 
   .pt-lg-1 {
-    padding-top: 0.5rem !important;
+    padding-top: 1rem !important;
   }
 
   .pt-lg-2 {
-    padding-top: 1rem !important;
+    padding-top: 1.5rem !important;
   }
 
   .pt-lg-3 {
@@ -3546,11 +3546,11 @@ progress {
   }
 
   .pe-lg-1 {
-    padding-right: 0.5rem !important;
+    padding-right: 1rem !important;
   }
 
   .pe-lg-2 {
-    padding-right: 1rem !important;
+    padding-right: 1.5rem !important;
   }
 
   .pe-lg-3 {
@@ -3570,11 +3570,11 @@ progress {
   }
 
   .pb-lg-1 {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .pb-lg-2 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .pb-lg-3 {
@@ -3594,11 +3594,11 @@ progress {
   }
 
   .ps-lg-1 {
-    padding-left: 0.5rem !important;
+    padding-left: 1rem !important;
   }
 
   .ps-lg-2 {
-    padding-left: 1rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .ps-lg-3 {
@@ -3731,11 +3731,11 @@ progress {
   }
 
   .gap-xl-1 {
-    gap: 0.5rem !important;
+    gap: 1rem !important;
   }
 
   .gap-xl-2 {
-    gap: 1rem !important;
+    gap: 1.5rem !important;
   }
 
   .gap-xl-3 {
@@ -3879,11 +3879,11 @@ progress {
   }
 
   .m-xl-1 {
-    margin: 0.5rem !important;
+    margin: 1rem !important;
   }
 
   .m-xl-2 {
-    margin: 1rem !important;
+    margin: 1.5rem !important;
   }
 
   .m-xl-3 {
@@ -3908,13 +3908,13 @@ progress {
   }
 
   .mx-xl-1 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
 
   .mx-xl-2 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .mx-xl-3 {
@@ -3943,13 +3943,13 @@ progress {
   }
 
   .my-xl-1 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .my-xl-2 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .my-xl-3 {
@@ -3977,11 +3977,11 @@ progress {
   }
 
   .mt-xl-1 {
-    margin-top: 0.5rem !important;
+    margin-top: 1rem !important;
   }
 
   .mt-xl-2 {
-    margin-top: 1rem !important;
+    margin-top: 1.5rem !important;
   }
 
   .mt-xl-3 {
@@ -4005,11 +4005,11 @@ progress {
   }
 
   .me-xl-1 {
-    margin-right: 0.5rem !important;
+    margin-right: 1rem !important;
   }
 
   .me-xl-2 {
-    margin-right: 1rem !important;
+    margin-right: 1.5rem !important;
   }
 
   .me-xl-3 {
@@ -4033,11 +4033,11 @@ progress {
   }
 
   .mb-xl-1 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .mb-xl-2 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .mb-xl-3 {
@@ -4061,11 +4061,11 @@ progress {
   }
 
   .ms-xl-1 {
-    margin-left: 0.5rem !important;
+    margin-left: 1rem !important;
   }
 
   .ms-xl-2 {
-    margin-left: 1rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .ms-xl-3 {
@@ -4089,11 +4089,11 @@ progress {
   }
 
   .p-xl-1 {
-    padding: 0.5rem !important;
+    padding: 1rem !important;
   }
 
   .p-xl-2 {
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
 
   .p-xl-3 {
@@ -4114,13 +4114,13 @@ progress {
   }
 
   .px-xl-1 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
 
   .px-xl-2 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .px-xl-3 {
@@ -4144,13 +4144,13 @@ progress {
   }
 
   .py-xl-1 {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .py-xl-2 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .py-xl-3 {
@@ -4173,11 +4173,11 @@ progress {
   }
 
   .pt-xl-1 {
-    padding-top: 0.5rem !important;
+    padding-top: 1rem !important;
   }
 
   .pt-xl-2 {
-    padding-top: 1rem !important;
+    padding-top: 1.5rem !important;
   }
 
   .pt-xl-3 {
@@ -4197,11 +4197,11 @@ progress {
   }
 
   .pe-xl-1 {
-    padding-right: 0.5rem !important;
+    padding-right: 1rem !important;
   }
 
   .pe-xl-2 {
-    padding-right: 1rem !important;
+    padding-right: 1.5rem !important;
   }
 
   .pe-xl-3 {
@@ -4221,11 +4221,11 @@ progress {
   }
 
   .pb-xl-1 {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .pb-xl-2 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .pb-xl-3 {
@@ -4245,11 +4245,11 @@ progress {
   }
 
   .ps-xl-1 {
-    padding-left: 0.5rem !important;
+    padding-left: 1rem !important;
   }
 
   .ps-xl-2 {
-    padding-left: 1rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .ps-xl-3 {
@@ -4382,11 +4382,11 @@ progress {
   }
 
   .gap-xxl-1 {
-    gap: 0.5rem !important;
+    gap: 1rem !important;
   }
 
   .gap-xxl-2 {
-    gap: 1rem !important;
+    gap: 1.5rem !important;
   }
 
   .gap-xxl-3 {
@@ -4530,11 +4530,11 @@ progress {
   }
 
   .m-xxl-1 {
-    margin: 0.5rem !important;
+    margin: 1rem !important;
   }
 
   .m-xxl-2 {
-    margin: 1rem !important;
+    margin: 1.5rem !important;
   }
 
   .m-xxl-3 {
@@ -4559,13 +4559,13 @@ progress {
   }
 
   .mx-xxl-1 {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
   }
 
   .mx-xxl-2 {
-    margin-right: 1rem !important;
-    margin-left: 1rem !important;
+    margin-right: 1.5rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .mx-xxl-3 {
@@ -4594,13 +4594,13 @@ progress {
   }
 
   .my-xxl-1 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 0.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .my-xxl-2 {
-    margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .my-xxl-3 {
@@ -4628,11 +4628,11 @@ progress {
   }
 
   .mt-xxl-1 {
-    margin-top: 0.5rem !important;
+    margin-top: 1rem !important;
   }
 
   .mt-xxl-2 {
-    margin-top: 1rem !important;
+    margin-top: 1.5rem !important;
   }
 
   .mt-xxl-3 {
@@ -4656,11 +4656,11 @@ progress {
   }
 
   .me-xxl-1 {
-    margin-right: 0.5rem !important;
+    margin-right: 1rem !important;
   }
 
   .me-xxl-2 {
-    margin-right: 1rem !important;
+    margin-right: 1.5rem !important;
   }
 
   .me-xxl-3 {
@@ -4684,11 +4684,11 @@ progress {
   }
 
   .mb-xxl-1 {
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 1rem !important;
   }
 
   .mb-xxl-2 {
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.5rem !important;
   }
 
   .mb-xxl-3 {
@@ -4712,11 +4712,11 @@ progress {
   }
 
   .ms-xxl-1 {
-    margin-left: 0.5rem !important;
+    margin-left: 1rem !important;
   }
 
   .ms-xxl-2 {
-    margin-left: 1rem !important;
+    margin-left: 1.5rem !important;
   }
 
   .ms-xxl-3 {
@@ -4740,11 +4740,11 @@ progress {
   }
 
   .p-xxl-1 {
-    padding: 0.5rem !important;
+    padding: 1rem !important;
   }
 
   .p-xxl-2 {
-    padding: 1rem !important;
+    padding: 1.5rem !important;
   }
 
   .p-xxl-3 {
@@ -4765,13 +4765,13 @@ progress {
   }
 
   .px-xxl-1 {
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
   }
 
   .px-xxl-2 {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .px-xxl-3 {
@@ -4795,13 +4795,13 @@ progress {
   }
 
   .py-xxl-1 {
-    padding-top: 0.5rem !important;
-    padding-bottom: 0.5rem !important;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .py-xxl-2 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .py-xxl-3 {
@@ -4824,11 +4824,11 @@ progress {
   }
 
   .pt-xxl-1 {
-    padding-top: 0.5rem !important;
+    padding-top: 1rem !important;
   }
 
   .pt-xxl-2 {
-    padding-top: 1rem !important;
+    padding-top: 1.5rem !important;
   }
 
   .pt-xxl-3 {
@@ -4848,11 +4848,11 @@ progress {
   }
 
   .pe-xxl-1 {
-    padding-right: 0.5rem !important;
+    padding-right: 1rem !important;
   }
 
   .pe-xxl-2 {
-    padding-right: 1rem !important;
+    padding-right: 1.5rem !important;
   }
 
   .pe-xxl-3 {
@@ -4872,11 +4872,11 @@ progress {
   }
 
   .pb-xxl-1 {
-    padding-bottom: 0.5rem !important;
+    padding-bottom: 1rem !important;
   }
 
   .pb-xxl-2 {
-    padding-bottom: 1rem !important;
+    padding-bottom: 1.5rem !important;
   }
 
   .pb-xxl-3 {
@@ -4896,11 +4896,11 @@ progress {
   }
 
   .ps-xxl-1 {
-    padding-left: 0.5rem !important;
+    padding-left: 1rem !important;
   }
 
   .ps-xxl-2 {
-    padding-left: 1rem !important;
+    padding-left: 1.5rem !important;
   }
 
   .ps-xxl-3 {
@@ -5729,17 +5729,21 @@ a {
   color: #1C4D65;
 }
 
-a:hover {
-  color: #1C4D65;
-}
-
-a.white:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-a:hover h2, a:hover .h2 {
+a:hover h2, a:hover .h2, .header-item:hover a {
   font-weight: 600;
+}
+
+.navbar a {
+  text-transform: uppercase;
+}
+
+a:before {
+  display: block;
+  font-weight: 600;
+  content: attr(data-text);
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 button, .btn {
@@ -5882,7 +5886,7 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
 }
 
 #free-trial {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/coals.jpg) center top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/coals3.jpg) center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -5975,25 +5979,36 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #333333;
-  background-color: #333;
+  border-bottom: 1px solid black;
+  background-color: black;
 }
 
 #food-header {
   display: flex;
-  justify-content: flex-start;
-  padding: 0 0 25px;
+  align-items: center;
   flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+#hs-icon {
+  height: 5rem;
+  align-self: center;
+  margin: auto;
 }
 
 .header-item {
-  margin: 25px 15px 0 0;
-  min-width: 85px;
-  width: 12vw;
+  width: auto;
+  margin: 0.75rem 1.5rem;
 }
 
 .header-item a {
   color: white;
+  text-transform: uppercase;
+}
+
+.food-title {
+  margin-top: -81px;
+  padding-top: 133px;
 }
 
 .home-next {

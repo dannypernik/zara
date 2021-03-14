@@ -25,14 +25,14 @@
     <div class="row justify-content-center">
       <div class="col-sm-11 col-xl-10">
         <ul class="d-none d-md-flex p-5 justify-content-end">
-          <li><a href="#food">MENU</a></li>
-          <li><a href="">ORDER ONLINE</a></li>
-          <li><a href="{{ url_for('about') }}">ABOUT</a></li>
+          <li><a href="#food" data-text="menu">menu</a></li>
+          <li><a href="order online" data-text="order online">order online</a></li>
+          <li><a href="{{ url_for('about') }}" data-text="about">about</a></li>
         </ul>
         <ul class="d-flex d-md-none p-4 justify-content-center">
-          <li><a href="#food">MENU</a></li>
-          <li><a href="">ORDER ONLINE</a></li>
-          <li><a href="{{ url_for('about') }}">ABOUT</a></li>
+          <li><a href="#food" data-text="menu">menu</a></li>
+          <li><a href="" data-text="order online">order online</a></li>
+          <li><a href="{{ url_for('about') }}" data-text="about">about</a></li>
         </ul>
       </div>
     </div>
@@ -45,7 +45,7 @@
       <div class="row justify-content-center">
         <div class="col-11">
           <img id="home-logo" class="img-fluid"
-            src="{{ url_for('static', filename='img/logo.svg') }}" alt=""/>
+            src="{{ url_for('static', filename='img/logo.svg') }}" alt="HOTSWORDS">
         </div>
       </div>
       <div class="home-next row">
@@ -61,29 +61,543 @@
       </div>
     </div>
 
+
+
     <div id="food" class="home-section">
       <div class="sticky-header row justify-content-center">
-        <div id="food-header" class="col col-10 col-md-9">
-            <div class="header-item">
-              <a href="#plates">PLATES</a>
-            </div>
-            <div class="header-item">
-              <a href="#wraps">WRAPS</a>
-            </div>
-            <div class="header-item">
-              <a href="#sides">SIDES</a>
-            </div>
-            <div class="header-item">
-              <a href="#drinks">DRINKS</a>
-            </div>
-            <div class="last header-item">
-              <a href="#desserts">DESSERTS</a>
-            </div>
+        <div class="col-3 col-md-2 d-flex p-2">
+          <img id="hs-icon" class="img-fluid"
+            src="{{ url_for('static', filename='img/icon.svg') }}" >
+        </div>
+        <div id="food-header" class="col-9">
+          <div class="header-item">
+            <a href="#appetizers" data-text="appetizers">appetizers</a>
+          </div>
+          <div class="header-item">
+            <a href="#salads" data-text="salads">salads</a>
+          </div>
+          <div class="header-item">
+            <a href="#entrees" data-text="entrees">entrees</a>
+          </div>
+          <div class="header-item">
+            <a href="#wraps" data-text="wraps">wraps</a>
+          </div>
+          <div class="header-item">
+            <a href="#sides" data-text="sides">sides</a>
+          </div>
+          <div class="last header-item">
+            <a href="#desserts" data-text="desserts">desserts</a>
+          </div>
         </div>
       </div>
 
-      <div class="row text-center justify-content-center">
+      <div class="row justify-content-center">
         <div class="col-10">
+
+          <h1 id="appetizers" class="food-title">APPETIZERS</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>HUMMUS</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$4.99</strong>
+                </div>
+                <div class="col">
+                  A dip made from cooked and mashed chickpeas blended with tahini, garlic and
+                  lemon juice. Made fresh in house and served with pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>BABA GHANUJ</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$4.99</strong>
+                </div>
+                <div class="col">
+                  A blend of baked and roasted eggplant mixed with tahini, garlic, and lemon
+                  juice, topped with olive oil and served with pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>TZATZIKI (8 oz)</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$5.99</strong>
+                </div>
+                <div class="col">
+                  Served with pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>FALAFEL (6p)</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$5.99</strong>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>DOLMA (6p)</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$4.99</strong>
+                </div>
+                <div class="col">
+                  Grape leaves stuffed with rice, tomatoes, onions and parsley slow-cooked with
+                  lemon juice and herbs.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>LEBNAH</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$8.99</strong>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>GRILLED TOMATOES</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$6.99</strong>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>GRILLED VEGGIES</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$4.99</strong>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>ARRAYES (Beef bread)</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$6.99</strong>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+          </div>
+
+          <h1 id="salads" class="food-title">SALADS</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>GREEK SALAD</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$7.99</strong>
+                </div>
+                <div class="col">
+                  Hearts of romaine lettuce with tomato, onion, cucumber, bell pepper, Italian
+                  peppers, Kalamata olives and feta cheese, topped with our Greek vinaigrette.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>CHICKEN SHAWARMA SALAD</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$9.99</strong>
+                </div>
+                <div class="col">
+                  Hearts of romaine lettuce, tomatoes, cucumbers, olives, onions, bell peppers,
+                  chicken breast, feta cheese, tomatoes and our homemade dressing.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>GYRO SALAD</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$9.99</strong>
+                </div>
+                <div class="col">
+                  Romaine lettuce, tomatoes, cucumbers, bell peppers, onions, feta
+                  cheese and Kalamata olives, topped with gyro meat and served with our
+                  homemade dressing, tzatziki sauce and pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>TABOULEH SALAD</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$5.99</strong>
+                </div>
+                <div class="col">
+                  A refreshing mix of parsley, bulgur wheat, fresh tomatoes, onions,
+                  lemon, salt and extra virgin olive oil.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>FATTOUSH SALAD</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$4.99</strong>
+                </div>
+                <div class="col">
+                  A Mediterranean blend of toasted pita bread, tomatoes, parsley, romaine
+                  lettuce, onions and cucumbers and seasoned with 3 herbs. Served with our
+                  homemade lemon and olive oil dressing.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+          </div>
+
+          <h1 id="entrees" class="food-title">ENTREES</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>GYRO PLATE</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$12.99</strong>
+                </div>
+                <div class="col">
+                  Hand-carved gyro meat, served with basmati rice, tzatziki sauce, Greek salad
+                  and baked pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>CHICKEN SHAWARMA PLATE</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$12.99</strong>
+                </div>
+                <div class="col">
+                  Marinated strips of chicken, grilled and served with basmati rice,
+                  garlic sauce, Greek salad and baked pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>BEEF SHAWARMA PLATE</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$13.99</strong>
+                </div>
+                <div class="col">
+                  Marinated strips of beef, grilled and served with basmati rice, tahini
+                  sauce, Greek salad and baked pita bread
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>VEGETARIAN PLATE</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$13.99</strong>
+                </div>
+                <div class="col">
+                  Hummus, baba ghanouj, rice, dolma and falafel, served with baked pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>CHICKEN KEBAB</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$14.99</strong>
+                </div>
+                <div class="col">
+                  2 swords of tender marinated chicken, charbroiled on an open fire served
+                  with rice, Greek salad, garlic sauce and pita bread with tzatziki sauce.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>KOUFTA KEBAB</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$14.99</strong>
+                </div>
+                <div class="col">
+                  2 swords of ground beef mixed with onions, served with basmati rice, Greek
+                  salad and baked pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>LAMB KEBAB</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$15.99</strong>
+                </div>
+                <div class="col">
+                  2 swords of marinated cubes of lamb, charbroiled on open fire to perfection,
+                  served with basmati rice, Greek salad and freshly baked pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>SHISH KEBAB COMBO</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$17.99</strong>
+                </div>
+                <div class="col">
+                  3 swords of chicken, koufta and lamb served with basmati rice, tahini sauce,
+                  Greek salad and baked pita bread.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+
+
+
+
+            </div>
+          </div>
+
+          <h1 id="wraps" class="food-title">WRAPS</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>CHICKEN SHAWARMA WRAP</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$8.99</strong>
+                </div>
+                <div class="col">
+                  Chicken, garlic sauce, Mediterranean pickles and fries inside
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>FALAFEL WRAP</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$7.99</strong>
+                </div>
+                <div class="col">
+                  3 deep-fried ball patties made from grounded chickpeas with hummus, tomato,
+                  pickles and fries inside the wrap.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>GYRO WRAP</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$8.99</strong>
+                </div>
+                <div class="col">
+                  Mix of beef and lamb meat with tzatziki sauce, pickles, tomato and lettuce.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>BEEF SHAWARMA WRAP</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$8.99</strong>
+                </div>
+                <div class="col">
+                  Marinated strips of beef charbroiled on an open fire, sliced off, topped with
+                  hummus, lettuce, onion, tomatoes and tahini sauce rolled in pita bread.
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>LAMB KEBAB WRAP</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$9.99</strong>
+                </div>
+                <div class="col">
+                  Marinated cubes of lamb, green bell pepper and onions, charbroiled to
+                  perfection. Includes tahini sauce rolled in pita bread
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>CHICKEN KEBAB WRAP</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$8.99</strong>
+                </div>
+                <div class="col">
+                  Charbroiled strips of chicken tenders, hummus, lettuce, onions, tomatoes and
+                  garlic sauce rolled in pita bread
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+          </div>
+
+          <h1 id="sides" class="food-title">SIDES</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>FRIES</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$3.99</strong>
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>FETA CHEESE</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$1.49</strong>
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>EXTRA SAUCE</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$1.50</strong>
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>RICE</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$4.99</strong>
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>KALAMATA OLIVES</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$0.99</strong>
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>PITA BREAD</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$1.99</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+          </div>
+
+          <h1 id="desserts" class="food-title">DESSERTS</h1>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>BAKLAVA</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong> $2.99</strong>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>NEW YORK CHEESECAKE</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$4.99</strong>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+
+              <div class="row mb-2">
+                <div class="col-6">
+                  <strong>TIRAMISU</strong>
+                </div>
+                <div class="col-6 text-end">
+                  <strong>$5.99</strong>
+                </div>
+                <div class="col">
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+
+            </div>
+          </div>
 
         </div>
       </div>
@@ -121,6 +635,7 @@
   <script type="text/javascript">
     zenscroll.setup(null, 0);
   </script>
+
   <script type="text/javascript">
    function onSubmit(token) {
      document.getElementById("inquiry-form").submit();
