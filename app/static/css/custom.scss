@@ -2,6 +2,14 @@ $font-size-root: 10px;
 $lead-font-size: calc(1.5rem + 0.7vw) !important;
 $lead-font-weight: inherit;
 $spacer: 2rem;
+$spacers: (
+  0: 0,
+  1: $spacer / 2,
+  2: $spacer * 0.75,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);
 $enable-smooth-scroll: false;
 $primary-color: #1C4D65;
 $secondary-color: #ababee;
@@ -106,17 +114,21 @@ a {
   color: $primary-color;
 }
 
-a:hover {
-  color: $primary-color;
-}
-
-a.white:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-a:hover h2 {
+a:hover h2, .header-item:hover a {
   font-weight: 600;
+}
+
+.navbar a {
+  text-transform: uppercase;
+}
+
+a:before {
+  display: block;
+  font-weight: 600;
+  content: attr(data-text);
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
 
 button, .btn {
@@ -255,7 +267,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 // X-large backgrounds //
 
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals2.jpg) center top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals-xl.jpg) right center no-repeat;
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -265,7 +277,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 }
 
 #free-trial {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/student2-xl.webp) center top no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/coals3.jpg) center top no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
@@ -273,6 +285,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 // Med-Large backgrounds //
 @media screen and (max-width: 1200px) {
   #home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals-lg.jpg) center bottom no-repeat;
   }
 
   #free-trial {
@@ -282,7 +295,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 // Mobile backgrounds //
 @media screen and (max-width: 575px) {
   #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals2.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals.jpg);
     background-attachment: scroll;
   }
 
@@ -295,7 +308,7 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
 #home-logo {
   position: relative;
   display: block;
-  margin: 0rem auto calc(3rem);
+  margin: 15rem auto calc(3rem);
   height: calc(280px + 3vw);
 }
 
@@ -364,24 +377,41 @@ button:hover, .btn:hover, input[type="submit"]:hover, .menu-link:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #333333;
+  border-bottom: 1px solid black;
+  background-color: black;
 }
 
 #food-header {
   display: flex;
-  justify-content: flex-start;
-  padding: 0 0 25px;
+  align-items: center;
   flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+#hs-icon {
+  height: 5rem;
+  align-self: center;
+  margin: auto;
 }
 
 .header-item {
-  margin: 25px 15px 0 0;
-  width: 85px;
+  width: auto;
+  margin: 0.75rem 1.5rem;
+}
+
+.header-item a {
+  color: white;
+  text-transform: uppercase;
+}
+
+.food-title {
+  margin-top: -81px;
+  padding-top: 133px;
 }
 
 .home-next {
   display: table;
-  margin: calc(5rem + 1vw) auto 0;
+  margin: calc(5rem + 1vw) auto 5rem;
   text-align: center;
 }
 
