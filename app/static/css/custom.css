@@ -5979,8 +5979,8 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid black;
-  background-color: black;
+  border-bottom: 1px solid #2e225e;
+  background-color: #2e225e;
 }
 
 #food-header {
@@ -6009,6 +6009,12 @@ button:hover, .btn:hover, input[type=submit]:hover, .menu-link:hover {
 .food-title {
   margin-top: -81px;
   padding-top: 133px;
+}
+
+.food-name, .food-price {
+  font-weight: 600;
+  color: #b11e25;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 833px) {
