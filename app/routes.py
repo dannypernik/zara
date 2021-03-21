@@ -2,10 +2,17 @@ from flask import Flask, render_template, flash, Markup, redirect, url_for, requ
 from app import app, db
 from app.forms import InquiryForm, EmailForm, SignupForm, LoginForm, EditProfileForm
 from flask_login import current_user, login_user, logout_user, login_required
-from app.models import User
+from app.models import User, Food
 from werkzeug.urls import url_parse
 from datetime import datetime
 from app.email import send_inquiry_email
+
+appetizers = Food.query.filter_by(category='Appetizers').all()
+salads = Food.query.filter_by(category='Salads').all()
+entrees = Food.query.filter_by(category='Entrees').all()
+wraps = Food.query.filter_by(category='Wraps').all()
+sides = Food.query.filter_by(category='Sides').all()
+desserts = Food.query.filter_by(category='Desserts').all()
 
 @app.before_request
 def before_request():
@@ -34,7 +41,8 @@ def about():
 
 @app.route('/draft')
 def reviews():
-    return render_template('index2.html')
+    return render_template('draft.html', a=appetizers, sal=salads, e=entrees, \
+        w=wraps, sid=sides, d=desserts)
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():

@@ -47,6 +47,16 @@ class Post(db.Model):
     def __repr__(self):
         return '<Post {}>'.format(self.body)
 
+class Food(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(64))
+    price = db.Column(db.Numeric(precision = 4, asdecimal = True))
+    description = db.Column(db.String(1024))
+    category = db.Column(db.String(64))
+
+    def __repr__(self):
+        return '<Food {}>'.format(self.name)
+
 @login.user_loader
 def load_user(id):
     return User.query.get(int(id))
