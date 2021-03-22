@@ -24,13 +24,6 @@ def before_request():
 @app.route('/index', methods=['GET', 'POST'])
 def index():
     form = InquiryForm()
-    appetizers = Food.query.filter_by(category='Appetizers').all()
-    salads = Food.query.filter_by(category='Salads').all()
-    entrees = Food.query.filter_by(category='Entrees').all()
-    wraps = Food.query.filter_by(category='Wraps').all()
-    sides = Food.query.filter_by(category='Sides').all()
-    desserts = Food.query.filter_by(category='Desserts').all()
-
     if form.validate_on_submit():
         user = User(first_name=form.first_name.data, email=form.email.data, phone=form.phone.data)
         message = form.message.data
