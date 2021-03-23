@@ -6043,11 +6043,13 @@ a:before {
 .glider-prev, .glider-next {
   top: auto;
   bottom: 11px;
-  left: 10px;
+  left: 5px;
+  text-align: center;
+  width: 20px;
 }
 
 .glider-next {
-  right: 10px;
+  right: 5px;
   left: auto;
 }
 
