@@ -453,6 +453,10 @@ a:before {
   left: auto;
 }
 
+.glider-prev:focus, .glider-next:focus {
+  color: #666;
+}
+
 .home-next {
   display: table;
   margin: calc(5rem + 1vw) auto 5rem;
