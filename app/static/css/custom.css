@@ -5682,19 +5682,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   line-height: 1.2;
 }
 
-@media screen and (max-width: 575px) {
-  h1, .h1 {
-    font-size: 2rem;
-  }
-
-  h2, .h2 {
-    font-size: 1.75rem;
-  }
-
-  h3, .h3 {
-    font-size: 1.5rem;
-  }
-}
 .row {
   margin-left: 0;
   margin-right: 0;
@@ -5731,10 +5718,6 @@ a {
 
 a:hover h2, a:hover .h2, .header-item:hover a {
   font-weight: 600;
-}
-
-.navbar a {
-  text-transform: uppercase;
 }
 
 a:before {
@@ -5836,9 +5819,10 @@ a:before {
 #menu-btn {
   display: flex;
   justify-content: flex-end;
-  margin: 17px 0 17px auto;
+  margin: 26px 0 26px auto;
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }
 
 #menu-btn:hover, #menu-btn:focus {
@@ -5846,7 +5830,7 @@ a:before {
 }
 
 #menu-icon {
-  height: 26px;
+  height: 28px;
   padding-left: 15px;
 }
 
@@ -5855,7 +5839,7 @@ a:before {
 }
 
 .menu-link {
-  height: 60px;
+  height: 80px;
   border-bottom: 1px solid #ddd;
   color: #2e225e;
   transition: 0.3s;
@@ -5866,7 +5850,7 @@ a:before {
 }
 
 .site-nav {
-  height: 60px;
+  height: 80px;
   position: fixed;
   left: 0;
   width: 100%;
@@ -5947,7 +5931,8 @@ a:before {
   color: white;
   font-size: 2rem;
   text-decoration: none;
-  padding: 0 20px;
+  padding: 4rem 2rem;
+  text-transform: uppercase;
 }
 
 .home-nav a:focus, .home-nav a:hover {
@@ -5955,8 +5940,12 @@ a:before {
 }
 
 .home-section {
-  min-height: 100vh;
+  min-height: calc(100vh + 3px);
   overflow: auto;
+}
+
+.home-section a:hover {
+  color: #b11e25;
 }
 
 .home-section.inverse {
@@ -5967,7 +5956,7 @@ a:before {
   color: white;
 }
 
-#food {
+#food, #dine {
   overflow: unset;
 }
 
@@ -5975,6 +5964,7 @@ a:before {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  border: none;
   border-bottom: 1px solid #2e225e;
   background-color: #2e225e;
   z-index: 100;
@@ -6044,6 +6034,7 @@ a:before {
   top: auto;
   bottom: 11px;
   left: 5px;
+  color: #2e225e;
   text-align: center;
   width: 20px;
 }
@@ -6053,14 +6044,18 @@ a:before {
   left: auto;
 }
 
-.glider-prev:focus, .glider-next:focus {
-  color: #666;
+.glider-prev:focus, .glider-next:focus, .glider-next:hover, .glider-prev:hover {
+  color: #b11e25;
 }
 
 .home-next {
   display: table;
-  margin: calc(5rem + 1vw) auto 5rem;
   text-align: center;
+  margin: 3rem auto;
+}
+
+#home .home-next {
+  margin: calc(5rem + 1vw) auto 5rem;
 }
 
 .bi-chevron-down {
