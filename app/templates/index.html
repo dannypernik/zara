@@ -14,7 +14,7 @@
   {% with messages = get_flashed_messages() %}
     {% if messages %}
       {% for message in messages %}
-        <div class="d-none d-md-block row justify-content-center alert alert-info">
+        <div class="row justify-content-center alert alert-info">
           <div class="col-sm-11 col-md-10 col-lg-9">
             <div role="alert">{{ message }}</div>
           </div>
@@ -26,7 +26,7 @@
     <div class="row">
       <div class="col-sm-11 col-xl-10">
         <div class="d-flex justify-content-between justify-content-md-end">
-          <div class="d-none d-md-block"><a href="#dine" data-text="dine">dine</a></div>
+          <!--<div class="d-none d-md-block"><a href="#dine" data-text="dine">dine</a></div>-->
           <div><a href="#food" data-text="menu">menu</a></div>
           <div><a href="#" data-text="order">order</a></div>
           <div><a href="#contact" data-text="contact">contact</a></div>
@@ -46,7 +46,7 @@
         </div>
       </div>
       <div class="home-next row">
-        <a href="#dine">
+        <a href="#food">
           <h2>
             LET'S EAT
           </h2>
@@ -58,10 +58,8 @@
       </div>
     </div>
 
-    <div id="dine" class="home-section">
+    <!--<div id="dine" class="home-section">
       {% include "_sticky-header.html" %}
-
-      {% include "_menu-content.html" %}
 
       <div class="home-next row">
         <a href="#food">
@@ -74,9 +72,9 @@
           </svg>
         </a>
       </div>
-    </div>
+    </div>-->
 
-
+    {% include "_menu-content.html" %}
 
     <div id="food" class="home-section">
       <div class="sticky-header row justify-content-center">
