@@ -20,7 +20,6 @@ def before_request():
         current_user.last_viewed = datetime.utcnow()
         db.session.commit()
 
-@app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
 def index():
     form = InquiryForm()
@@ -40,6 +39,7 @@ def index():
 def about():
     return render_template('about.html')
 
+@app.route('/')
 @app.route('/draft')
 def draft():
     return render_template('draft.html', a=appetizers, sal=salads, e=entrees, \
