@@ -30,9 +30,9 @@ def index():
         db.session.add(user)
         db.session.commit()
         send_inquiry_email(user, message)
-        alert = "Thank you for your message. We will be in touch!"
         print(app.config['ADMINS'])
-        flash(alert)
+        flash("Thank you for your message. We will be in touch!")
+        return redirect(url_for('index'))
     return render_template('index.html', form=form, a=appetizers, sal=salads, e=entrees, \
         w=wraps, sid=sides, d=desserts)
 
