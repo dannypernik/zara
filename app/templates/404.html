@@ -1,5 +1,20 @@
 {% extends "base.html" %}
 
+{% block navbar %}
+  {{ super() }}
+{% endblock navbar %}
+
 {% block content %}
-  This page could not be found.
+  <div class="page-start row justify-content-center">
+    <div class="col-10 col-md-8">
+      <h1 class="mt-4">404: This page could not be found.</h1>
+      <p>If you'd be so kind as to let us know how you arrived here,
+        it will allow us to fix the issue more quickly. Thank you!</p>
+      <p class="text-center">
+        <a class="lead btn" href="{{ url_for('index', _anchor='contact', message='404 error:') }}">
+          Contact us
+        </a>
+      </p>
+    </div>
+  </div>
 {% endblock content %}

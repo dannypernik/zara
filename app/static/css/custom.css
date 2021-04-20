@@ -5730,7 +5730,6 @@ a:before {
 }
 
 .btn {
-  display: block;
   margin: 2rem auto;
   padding: 1rem 2rem;
   background-color: #2e225e;
@@ -5994,7 +5993,7 @@ a:before {
   text-transform: uppercase;
 }
 
-.food-title {
+.anchor-margin {
   margin-top: -81px;
   padding-top: 133px;
 }

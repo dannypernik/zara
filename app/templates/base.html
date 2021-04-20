@@ -70,37 +70,39 @@
   {{ super() }}
 {% endblock body %}
 
-{% block content %}
-  {% block navbar %}
-    <div class="site-nav">
-      <div class="row justify-content-center">
-        <div class="col-10">
-          <div class="row">
-            <div class="col-9">
-              <a href="{{ url_for('index') }}">
-                <img id="nav-img" src="{{ url_for('static', filename='img/logo-header.svg') }}" alt="Open Path Tutoring">
-              </a>
-            </div>
-            <div class="col-3">
-              <a id="menu-btn" href="#" data-drawer-trigger aria-controls="site-menu" aria-expanded="false">
-                <div id="menu-title" class="d-none d-sm-block">Menu</div>
-                <img id="menu-icon" src="{{ url_for('static', filename='img/menu.svg') }}" alt="">
-              </a>
-            </div>
+{% block navbar %}
+  <div class="site-nav">
+    <div class="row justify-content-center">
+      <div class="col-10">
+        <div class="row">
+          <div class="col-9">
+            <a href="{{ url_for('index') }}">
+              <img id="nav-img" src="{{ url_for('static', filename='img/icon.svg') }}" alt="HOTSWORDS">
+            </a>
+          </div>
+          <div class="col-3">
+            <a id="menu-btn" href="#" data-drawer-trigger aria-controls="site-menu" aria-expanded="false">
+              <div id="menu-title" class="d-none d-sm-block">Menu</div>
+              <img id="menu-icon" src="{{ url_for('static', filename='img/menu.svg') }}" alt="">
+            </a>
           </div>
         </div>
       </div>
     </div>
-    {% with messages = get_flashed_messages() %}
-      {% if messages %}
-        {% for message in messages %}
-          <div class="alert alert-info" role="alert">{{ message }}</div>
-        {% endfor %}
-      {% endif %}
-    {% endwith %}
+  </div>
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      {% for message in messages %}
+        <div class="alert alert-info" role="alert">{{ message }}</div>
+      {% endfor %}
+    {% endif %}
+  {% endwith %}
 
-    {% include "_menu-content.html" %}
-  {% endblock navbar %}
+  {% include "_menu-content.html" %}
+{% endblock navbar %}
+
+{% block content %}
+
 {% endblock content %}
 
 {% block footer %}
