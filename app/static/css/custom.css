@@ -5859,7 +5859,7 @@ a:before {
 }
 
 #home {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals-xl.jpg) right center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/grill.jpg) right center no-repeat;
   background-attachment: fixed;
   background-size: cover;
   display: flex;
@@ -5868,33 +5868,25 @@ a:before {
   align-items: center;
 }
 
-#free-trial {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/coals3.jpg) center top no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
+/* Med-Large backgrounds //
 @media screen and (max-width: 1200px) {
   #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals-lg.jpg) center bottom no-repeat;
   }
 }
+
+// Mobile backgrounds //
 @media screen and (max-width: 575px) {
   #home {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals.jpg);
     background-attachment: scroll;
   }
-
-  #free-trial {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/student2.jpg);
-    background-attachment: scroll;
-  }
-}
+}*/
 #home-logo {
   position: relative;
   display: block;
-  margin: 15rem auto calc(3rem);
-  height: calc(280px + 3vw);
+  margin: 10rem auto calc(3rem);
+  max-height: calc(280px + 3vw);
 }
 
 #home-title {
@@ -5977,8 +5969,8 @@ a:before {
   color: white;
 }
 
-#hs-icon {
-  height: 5rem;
+#home-icon {
+  height: 3rem;
   align-self: center;
   margin: auto;
 }
@@ -6054,7 +6046,7 @@ a:before {
 }
 
 #home .home-next {
-  margin: calc(5rem + 1vw) auto 5rem;
+  margin: 5rem auto 5rem;
 }
 
 .bi-chevron-down {
