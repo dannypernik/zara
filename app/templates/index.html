@@ -90,16 +90,22 @@
             <a href="#salads" data-text="salads">salads</a>
           </div>&bull;
           <div class="header-item">
-            <a href="#entrees" data-text="entrees">entrees</a>
+            <a href="#kebabs" data-text="kebabs">kebabs</a>
+          </div>&bull;
+          <div class="header-item">
+            <a href="#plates" data-text="plates">plates</a>
           </div>&bull;
           <div class="header-item">
             <a href="#wraps" data-text="wraps">wraps</a>
           </div>&bull;
-          <div class="header-item">
-            <a href="#sides" data-text="sides">sides</a>
-          </div>&bull;
           <div class="last header-item">
             <a href="#desserts" data-text="desserts">desserts</a>
+          </div>&bull;
+          <div class="last header-item">
+            <a href="#extras" data-text="extras">extras</a>
+          </div>&bull;
+          <div class="last header-item">
+            <a href="#drinks" data-text="drinks">drinks</a>
           </div>
         </div>
       </div>
@@ -116,9 +122,6 @@
                   </div>
                   <div class="food-price col-3 text-end">
                     ${{ food.price }}
-                  </div>
-                  <div class="food-info col">
-                    {{ food.description }}
                   </div>
                 </div>
               {% endfor %}
@@ -155,7 +158,7 @@
           <h1 id="salads" class="anchor-margin">SALADS</h1>
           <div class="row">
             <div class="col-md-6 order-2">
-              {% for food in sal %}
+              {% for food in s %}
                 <div class="row mb-2">
                   <div class="food-name col-9">
                     {{ food.name }}
@@ -198,7 +201,53 @@
             </div>
           </div>
 
-          <h1 id="entrees" class="anchor-margin">ENTREES</h1>
+          <h1 id="kebabs" class="anchor-margin">KEBABS</h1>
+          <div class="row">
+            <div class="col-md-6 order-2">
+              {% for food in k %}
+                <div class="row mb-2">
+                  <div class="food-name col-9">
+                    {{ food.name }}
+                  </div>
+                  <div class="food-price col-3 text-end">
+                    ${{ food.price }}
+                  </div>
+                  <div class="food-info col">
+                    {{ food.description }}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="col-md-5 offset-md-1 order-1 order-md-3">
+              <div class="glider-contain">
+                <div class="glider">
+                  <div>
+                    <img src="{{ url_for('static', filename='img/hummus.jpg') }}">
+                    <p class="my-2">Hummus</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/baba-ganoush.jpg') }}">
+                    <p class="my-2">Baba Ganoush</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/tzatziki.jpg') }}">
+                    <p class="my-2">Tzatziki</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/falafel.jpg') }}">
+                    <p class="my-2">Falafel</p>
+                  </div>
+                </div>
+
+                <div aria-label="Previous" class="glider-prev">‹</div>
+                <div aria-label="Next" class="glider-next">›</div>
+                <div role="tablist" class="dots"></div>
+              </div>
+            </div>
+          </div>
+
+          <h1 id="plates" class="anchor-margin">HEALTHY PLATES</h1>
           <div class="row">
             <div class="col-md-6 order-2">
               {% for food in e %}
@@ -244,56 +293,10 @@
             </div>
           </div>
 
-          <h1 id="wraps" class="anchor-margin">WRAPS</h1>
+          <h1 id="wraps" class="anchor-margin">HEALTHY WRAPS</h1>
           <div class="row">
             <div class="col-md-6 order-2">
               {% for food in w %}
-                <div class="row mb-2">
-                  <div class="food-name col-9">
-                    {{ food.name }}
-                  </div>
-                  <div class="food-price col-3 text-end">
-                    ${{ food.price }}
-                  </div>
-                  <div class="food-info col">
-                    {{ food.description }}
-                  </div>
-                </div>
-              {% endfor %}
-            </div>
-
-            <div class="col-md-5 offset-md-1 order-1 order-md-3">
-              <div class="glider-contain">
-                <div class="glider">
-                  <div>
-                    <img src="{{ url_for('static', filename='img/hummus.jpg') }}">
-                    <p class="my-2">Hummus</p>
-                  </div>
-                  <div>
-                    <img src="{{ url_for('static', filename='img/baba-ganoush.jpg') }}">
-                    <p class="my-2">Baba Ganoush</p>
-                  </div>
-                  <div>
-                    <img src="{{ url_for('static', filename='img/tzatziki.jpg') }}">
-                    <p class="my-2">Tzatziki</p>
-                  </div>
-                  <div>
-                    <img src="{{ url_for('static', filename='img/falafel.jpg') }}">
-                    <p class="my-2">Falafel</p>
-                  </div>
-                </div>
-
-                <div aria-label="Previous" class="glider-prev">‹</div>
-                <div aria-label="Next" class="glider-next">›</div>
-                <div role="tablist" class="dots"></div>
-              </div>
-            </div>
-          </div>
-
-          <h1 id="sides" class="anchor-margin">SIDES</h1>
-          <div class="row">
-            <div class="col-md-6 order-2">
-              {% for food in sid %}
                 <div class="row mb-2">
                   <div class="food-name col-9">
                     {{ food.name }}
@@ -340,6 +343,92 @@
           <div class="row">
             <div class="col-md-6 order-2">
               {% for food in d %}
+                <div class="row mb-2">
+                  <div class="food-name col-9">
+                    {{ food.name }}
+                  </div>
+                  <div class="food-price col-3 text-end">
+                    ${{ food.price }}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="col-md-5 offset-md-1 order-1 order-md-3">
+              <div class="glider-contain">
+                <div class="glider">
+                  <div>
+                    <img src="{{ url_for('static', filename='img/hummus.jpg') }}">
+                    <p class="my-2">Hummus</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/baba-ganoush.jpg') }}">
+                    <p class="my-2">Baba Ganoush</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/tzatziki.jpg') }}">
+                    <p class="my-2">Tzatziki</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/falafel.jpg') }}">
+                    <p class="my-2">Falafel</p>
+                  </div>
+                </div>
+
+                <div aria-label="Previous" class="glider-prev">‹</div>
+                <div aria-label="Next" class="glider-next">›</div>
+                <div role="tablist" class="dots"></div>
+              </div>
+            </div>
+          </div>
+
+          <h1 id="extras" class="anchor-margin">EXTRAS</h1>
+          <div class="row">
+            <div class="col-md-6 order-2">
+              {% for food in ex %}
+                <div class="row mb-2">
+                  <div class="food-name col-9">
+                    {{ food.name }}
+                  </div>
+                  <div class="food-price col-3 text-end">
+                    ${{ food.price }}
+                  </div>
+                </div>
+              {% endfor %}
+            </div>
+
+            <div class="col-md-5 offset-md-1 order-1 order-md-3">
+              <div class="glider-contain">
+                <div class="glider">
+                  <div>
+                    <img src="{{ url_for('static', filename='img/hummus.jpg') }}">
+                    <p class="my-2">Hummus</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/baba-ganoush.jpg') }}">
+                    <p class="my-2">Baba Ganoush</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/tzatziki.jpg') }}">
+                    <p class="my-2">Tzatziki</p>
+                  </div>
+                  <div>
+                    <img src="{{ url_for('static', filename='img/falafel.jpg') }}">
+                    <p class="my-2">Falafel</p>
+                  </div>
+                </div>
+
+                <div aria-label="Previous" class="glider-prev">‹</div>
+                <div aria-label="Next" class="glider-next">›</div>
+                <div role="tablist" class="dots"></div>
+              </div>
+            </div>
+          </div>
+
+          <h1 id="drinks" class="anchor-margin">DRINKS</h1>
+          <div class="row">
+            <div class="col-md-6 order-2">
+              {% for food in dk %}
                 <div class="row mb-2">
                   <div class="food-name col-9">
                     {{ food.name }}

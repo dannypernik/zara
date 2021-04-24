@@ -9,10 +9,13 @@ from app.email import send_inquiry_email
 
 appetizers = Food.query.filter_by(category='appetizers').all()
 salads = Food.query.filter_by(category='salads').all()
+kebabs = Food.query.filter_by(category='kebabs').all()
 entrees = Food.query.filter_by(category='entrees').all()
 wraps = Food.query.filter_by(category='wraps').all()
-sides = Food.query.filter_by(category='sides').all()
 desserts = Food.query.filter_by(category='desserts').all()
+extras = Food.query.filter_by(category='extras').all()
+drinks = Food.query.filter_by(category='drinks').all()
+
 
 @app.before_request
 def before_request():
@@ -32,8 +35,8 @@ def index():
         print(app.config['ADMINS'])
         flash("Thank you for your message. We will be in touch!")
         return redirect(url_for('index'))
-    return render_template('index.html', form=form, a=appetizers, sal=salads, e=entrees, \
-        w=wraps, sid=sides, d=desserts)
+    return render_template('index.html', form=form, a=appetizers, s=salads, k=kebabs, \
+        e=entrees, w=wraps, d=desserts, ex=extras, dk=drinks)
 
 @app.route('/about')
 def about():
@@ -42,8 +45,8 @@ def about():
 @app.route('/')
 @app.route('/draft')
 def draft():
-    return render_template('draft.html', a=appetizers, sal=salads, e=entrees, \
-        w=wraps, sid=sides, d=desserts)
+    return render_template('draft.html', a=appetizers, s=salads, k=kebabs, e=entrees, \
+        w=wraps, d=desserts, ex=extras, dk=drinks)
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
