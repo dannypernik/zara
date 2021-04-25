@@ -7,16 +7,6 @@ from werkzeug.urls import url_parse
 from datetime import datetime
 from app.email import send_inquiry_email
 
-appetizers = Food.query.filter_by(category='appetizers').all()
-salads = Food.query.filter_by(category='salads').all()
-kebabs = Food.query.filter_by(category='kebabs').all()
-entrees = Food.query.filter_by(category='entrees').all()
-wraps = Food.query.filter_by(category='wraps').all()
-desserts = Food.query.filter_by(category='desserts').all()
-extras = Food.query.filter_by(category='extras').all()
-drinks = Food.query.filter_by(category='drinks').all()
-
-
 @app.before_request
 def before_request():
     if current_user.is_authenticated:
@@ -26,6 +16,14 @@ def before_request():
 @app.route('/index', methods=['GET', 'POST'])
 def index():
     form = InquiryForm()
+    appetizers = Food.query.filter_by(category='appetizers').all()
+    salads = Food.query.filter_by(category='salads').all()
+    kebabs = Food.query.filter_by(category='kebabs').all()
+    entrees = Food.query.filter_by(category='entrees').all()
+    wraps = Food.query.filter_by(category='wraps').all()
+    desserts = Food.query.filter_by(category='desserts').all()
+    extras = Food.query.filter_by(category='extras').all()
+    drinks = Food.query.filter_by(category='drinks').all()
     if form.validate_on_submit():
         user = User(first_name=form.first_name.data, email=form.email.data, phone=form.phone.data)
         message = form.message.data
@@ -45,8 +43,7 @@ def about():
 @app.route('/')
 @app.route('/draft')
 def draft():
-    return render_template('draft.html', a=appetizers, s=salads, k=kebabs, e=entrees, \
-        w=wraps, d=desserts, ex=extras, dk=drinks)
+    return render_template('draft.html')
 
 @app.route('/signup', methods=['GET', 'POST'])
 def signup():
