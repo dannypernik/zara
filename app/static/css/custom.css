@@ -5899,7 +5899,7 @@ a:before {
 }*/
 @media screen and (max-width: 575px) {
   #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/coals.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/grill.jpg);
     background-attachment: scroll;
   }
 }
