@@ -169,8 +169,24 @@
                   <div class="food-price col-3 text-end">
                     ${{ food.price }}
                   </div>
-                  <div class="food-info col">
+                  <div class="food-info col-12">
                     {{ food.description }}
+                  </div>
+                  <div class="col-12 mt-1">
+                    <strong>Add protein</strong>
+                    <p class="mb-0">
+                      Falafel: $3.99
+                      <img class="veg-icon" src="{{ url_for('static', filename='img/veg.svg') }}" />
+                    </p>
+                    <p class="mb-0">
+                      Arabic Chicken: $3.99
+                    </p>
+                    <p class="mb-0">
+                      Texas Beef: $3.99
+                    </p>
+                    <p class="mb-0">
+                      Gyro: $3.99
+                    </p>
                   </div>
                 </div>
               {% endfor %}
@@ -257,6 +273,9 @@
                 <div class="row mb-2">
                   <div class="food-name col-9">
                     {{ food.name }}
+                    {% if food.veg %}
+                      <img class="veg-icon" src="{{ url_for('static', filename='img/veg.svg') }}" />
+                    {% endif %}
                   </div>
                   <div class="food-price col-3 text-end">
                     ${{ food.price }}
@@ -309,6 +328,9 @@
                   </div>
                   <div class="food-info col">
                     {{ food.description }}
+                    {% if food.veg %}
+                      <img class="veg-icon" src="{{ url_for('static', filename='img/veg.svg') }}" />
+                    {% endif %}
                   </div>
                 </div>
               {% endfor %}
@@ -495,7 +517,27 @@
 
       <div class="row mt-5 justify-content-center">
         <div class="col-11 col-md-8">
-          <h1 class="page-title">Send us a message</h1>
+          <h1 class="page-title">Contact</h1>
+          <p>
+            <strong>Location</strong> <br/>
+            902 East Cesar Chavez Street<br/>
+            Austin, TX 78702
+          </p>
+          <p>
+            <strong>Phone</strong><br/>
+            (512) 632-0432
+          </p>
+          <p>
+            <strong>Hours</strong><br/>
+            Monday - Sunday from 11:00am - 2:00am
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-11 col-md-8">
+          <h1 class="page-title mb-1 mt-4">Send us a message</h1>
+          <p><strong>We cater!</strong></p>
 
           <form id="inquiry-form" action="" method="post">
             {{ form.hidden_tag() }}

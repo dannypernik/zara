@@ -5786,6 +5786,12 @@ a:before {
   height: auto;
 }
 
+.veg-icon {
+  height: 2rem;
+  margin-left: 1rem;
+  padding-bottom: 0.5rem;
+}
+
 .alert {
   width: 100%;
   padding: 0.5rem 0;
