@@ -5795,6 +5795,7 @@ a:before {
 
 .page-title {
   font-family: "Montserrat Alternates", "Helvetica", sans-serif;
+  color: #b11e25;
   font-size: calc(1.75rem + 2vw);
 }
 
