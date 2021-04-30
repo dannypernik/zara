@@ -24,7 +24,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: navy;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -1482,7 +1482,7 @@ progress {
 }
 
 .text-body {
-  color: #212529 !important;
+  color: navy !important;
 }
 
 .text-muted {
@@ -5148,7 +5148,7 @@ progress {
   display: inline-block;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: navy;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -5167,7 +5167,7 @@ progress {
   }
 }
 .btn:hover {
-  color: #212529;
+  color: navy;
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
@@ -5644,7 +5644,7 @@ progress {
 
 body {
   font-family: "Montserrat", "Helvetica", sans-serif;
-  color: #2e225e;
+  color: navy;
   font-size: 1.6rem;
 }
 
@@ -5698,14 +5698,14 @@ input, textarea {
 }
 
 input:focus, textarea:focus {
-  border-bottom: 1px solid #2e225e;
+  border-bottom: 1px solid #4A8FE2;
 }
 
 input[type=submit] {
   margin-top: 1.5rem;
-  background-color: #2e225e;
+  background-color: #4A8FE2;
   color: white;
-  border: 2px solid #2e225e;
+  border: 2px solid #4A8FE2;
   font-size: 1.9rem;
   transition: 0.3s;
 }
@@ -5713,7 +5713,7 @@ input[type=submit] {
 a {
   display: inline-block;
   text-decoration: none;
-  color: #2e225e;
+  color: #4A8FE2;
 }
 
 a:hover h2, a:hover .h2, .header-item:hover a {
@@ -5732,8 +5732,8 @@ a:before {
 .btn {
   margin: 2rem auto;
   padding: 1rem 2rem;
-  background-color: #2e225e;
-  border: 2px solid #2e225e;
+  background-color: #4A8FE2;
+  border: 2px solid #4A8FE2;
   color: white;
   transition: 0.3s;
   font-size: 1.7rem;
@@ -5749,15 +5749,15 @@ a:before {
 }
 
 .btn.sec {
-  color: #2e225e;
-  border-color: #2e225e;
+  color: #4A8FE2;
+  border-color: #4A8FE2;
   background-color: transparent;
   padding: 0.5rem 2rem;
 }
 
 .btn:hover, .menu-link:hover {
-  background-color: #403083;
-  border-color: #403083;
+  background-color: #76aae9;
+  border-color: #76aae9;
   color: white;
 }
 
@@ -5800,7 +5800,7 @@ a:before {
 
 .footer {
   padding: 20px;
-  background-color: #2e225e;
+  background-color: #4A8FE2;
   color: white;
   margin-top: 15rem;
 }
@@ -5840,8 +5840,8 @@ a:before {
 .menu-link {
   height: 80px;
   border-bottom: 1px solid #ddd;
-  color: #2e225e;
   transition: 0.3s;
+  color: navy;
 }
 
 .menu-link p {
@@ -5853,8 +5853,8 @@ a:before {
   position: fixed;
   left: 0;
   width: 100%;
-  background-color: #2e225e;
-  border: 1px solid #2e225e;
+  background-color: #4A8FE2;
+  border: 1px solid #4A8FE2;
   z-index: 5;
 }
 
@@ -5956,8 +5956,8 @@ a:before {
   position: sticky;
   top: 0;
   border: none;
-  border-bottom: 1px solid #2e225e;
-  background-color: #2e225e;
+  border-bottom: 1px solid #4A8FE2;
+  background-color: #4A8FE2;
   z-index: 100;
 }
 
@@ -5985,14 +5985,15 @@ a:before {
   text-transform: uppercase;
 }
 
-.anchor-margin {
+.category-title {
   margin-top: -81px;
   padding-top: 133px;
+  color: #b11e25;
 }
 
 .food-name, .food-price {
   font-weight: 600;
-  color: #b11e25;
+  color: #4A8FE2;
   text-transform: uppercase;
 }
 
@@ -6025,7 +6026,7 @@ a:before {
   top: auto;
   bottom: 11px;
   left: 5px;
-  color: #2e225e;
+  color: #4A8FE2;
   text-align: center;
   width: 20px;
 }
