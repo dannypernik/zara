@@ -126,6 +126,11 @@ a:before {
   font-size: 1.7rem;
 }
 
+.btn.sm {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
 .white {
   color: white;
 }
@@ -142,9 +147,20 @@ a:before {
   padding: 0.5rem 2rem;
 }
 
-.btn:hover, .menu-link:hover {
+.btn:hover {
   background-color: $hover-color;
   border-color: $hover-color;
+  color: white;
+}
+
+.btn.clr:hover {
+  color: $body-color;
+  border-color: $body-color;
+  background-color: transparent;
+}
+
+.menu-link:hover {
+  background-color: $primary-color;
   color: white;
 }
 
@@ -331,7 +347,7 @@ a:before {
 }
 
 .home-section a:hover {
-  color: $secondary-color;
+  color: $body-color;
 }
 
 .home-section.inverse {
@@ -342,7 +358,7 @@ a:before {
   color: white;
 }
 
-#food, #dine {
+#food, #contact {
   overflow: unset;
 }
 

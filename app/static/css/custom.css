@@ -5739,6 +5739,11 @@ a:before {
   font-size: 1.7rem;
 }
 
+.btn.sm {
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+
 .white {
   color: white;
 }
@@ -5755,9 +5760,20 @@ a:before {
   padding: 0.5rem 2rem;
 }
 
-.btn:hover, .menu-link:hover {
+.btn:hover {
   background-color: #76aae9;
   border-color: #76aae9;
+  color: white;
+}
+
+.btn.clr:hover {
+  color: navy;
+  border-color: navy;
+  background-color: transparent;
+}
+
+.menu-link:hover {
+  background-color: #4A8FE2;
   color: white;
 }
 
@@ -5937,7 +5953,7 @@ a:before {
 }
 
 .home-section a:hover {
-  color: #b11e25;
+  color: navy;
 }
 
 .home-section.inverse {
@@ -5948,7 +5964,7 @@ a:before {
   color: white;
 }
 
-#food, #dine {
+#food, #contact {
   overflow: unset;
 }
 
