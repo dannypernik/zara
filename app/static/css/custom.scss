@@ -27,7 +27,6 @@ $title-font: 'Montserrat Alternates', 'Helvetica', sans-serif;
 @import "menu.css";
 
 // Sitewide stylings //
-
 body {
   font-family: $body-font;
   color: $body-color;
@@ -294,7 +293,7 @@ a:before {
 // Mobile backgrounds //
 @media screen and (max-width: 575px) {
   #home {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../img/grill.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/grill.jpg);
     background-attachment: scroll;
     background-position: -77px center;
   }
@@ -326,8 +325,9 @@ a:before {
 
 .home-nav {
   position: absolute;
-  left: 0;
-  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
   background-color: transparent;
   border: none;
 }
@@ -340,8 +340,14 @@ a:before {
   color: white;
   font-size: 2rem;
   text-decoration: none;
-  padding: 4rem 2rem;
+  padding: 4rem 0;
   text-transform: uppercase;
+}
+
+@media screen and (max-width: 449px) {
+  .home-nav a {
+    font-size: 1.75rem;
+  }
 }
 
 .home-nav a:focus, .home-nav a:hover {
@@ -403,6 +409,22 @@ a:before {
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 449px) {
+  .header-item {
+    margin: 0.75rem 1rem;
+  }
+
+  .header-item a {
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .header-item {
+    margin: 0.75rem 0.5rem;
+  }
+}
+
 .category-title  {
   margin-top: -81px;
   padding-top: 133px;
@@ -416,14 +438,14 @@ a:before {
 }
 
 @media screen and (max-width: 833px) {
-  .food-title {
+  .category-title {
     margin-top: -99px;
     padding-top: 144px;
   }
 }
 
 @media screen and (max-width: 449px) {
-  .food-title {
+  .category-title {
     margin-top: -137px;
     padding-top: 177px;
   }
