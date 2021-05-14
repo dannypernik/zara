@@ -1,3 +1,4 @@
+import os
 from flask import Flask, render_template, flash, Markup, redirect, url_for, request, send_from_directory
 from app import app, db
 from app.forms import InquiryForm, EmailForm, SignupForm, LoginForm, EditProfileForm
@@ -12,6 +13,11 @@ def before_request():
     if current_user.is_authenticated:
         current_user.last_viewed = datetime.utcnow()
         db.session.commit()
+
+def dir_last_updated(folder):
+    return str(max(os.path.getmtime(os.path.join(root_path, f))
+                   for root_path, dirs, files in os.walk(folder)
+                   for f in files))
 
 @app.route('/', methods=['GET', 'POST'])
 @app.route('/index', methods=['GET', 'POST'])
@@ -35,7 +41,7 @@ def index():
         flash("Thank you for your message. We will be in touch!")
         return redirect(url_for('index'))
     return render_template('index.html', form=form, a=appetizers, s=salads, k=kebabs, \
-        e=entrees, w=wraps, d=desserts, ex=extras, dk=drinks)
+        e=entrees, w=wraps, d=desserts, ex=extras, dk=drinks, last_updated=dir_last_updated('app/static'))
 
 @app.route('/about')
 def about():
