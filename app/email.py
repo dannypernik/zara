@@ -2,6 +2,7 @@ from threading import Thread
 from flask_mailman import EmailMessage
 from app import mail, app
 from flask import render_template
+from mailjet_rest import Client
 
 def send_async_email(app, msg):
     with app.app_context():
@@ -12,9 +13,28 @@ def send_email(subject, text_body, from_email, to, reply_to):
     Thread(target=send_async_email, args=(app, msg)).start()
 
 def send_inquiry_email(user, message):
-    send_email(subject="Contact Form Submission: " + user.first_name,
-               from_email=("ZaraATX.com", app.config['MAIL_USERNAME']),
-               to=app.config['ADMINS'][0],
-               reply_to=[user.email],
-               text_body=render_template('email/inquiry-form.txt',
-                                        user=user, message=message))
+    api_key = app.config['MAILJET_KEY']
+    api_secret = app.config['MAILJET_SECRET']
+    mailjet = Client(auth=(api_key, api_secret), version='v3.1')
+    data = {
+      'Messages': [
+        {
+          "From": {
+            "Email": app.config['ADMINS'][0],
+            "Name": "ZaraATX.com"
+          },
+          "To": [
+            {
+              "Email": app.config['ADMINS'][0],
+            }
+          ],
+          "Subject": "Contact Form Submission: " + user.first_name,
+          "TextPart": render_template('email/inquiry-form.txt',
+                                   user=user, message=message),
+        }
+      ]
+    }
+
+    result = mailjet.send.create(data=data)
+    print(result.status_code)
+    print(result.json())
