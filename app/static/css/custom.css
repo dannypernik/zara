@@ -5642,6 +5642,14 @@ progress {
   border-radius: 0.2rem;
 }
 
+html {
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   font-family: "Montserrat", "Helvetica", sans-serif;
   color: #365F8F;

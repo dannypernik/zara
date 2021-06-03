@@ -27,12 +27,19 @@ $title-font: 'Montserrat Alternates', 'Helvetica', sans-serif;
 @import "menu.css";
 
 // Sitewide stylings //
+html {
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
 body {
   font-family: $body-font;
   color: $body-color;
   font-size: 1.6rem;
 }
-
 
 p {
   margin-bottom: 2rem;

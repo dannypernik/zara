@@ -2,7 +2,7 @@
 {% import 'bootstrap/wtf.html' as wtf %}
 
 {% block head %}
-  <meta property="og:title" content="Zara on the Road" />
+  <meta property="og:title" content="Sarah's on the Road" />
   <meta property="og:description" content="" />
   <meta property="og:image" content="{{ url_for('static', filename='img/og-image.jpg') }}" />
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -22,13 +22,13 @@
       {% endfor %}
     {% endif %}
   {% endwith %}
-  <nav class="row justify-content-center justify-content-md-start">
+  <!--<nav class="row justify-content-center justify-content-md-start">
     <div class="home-nav col-11 offset-md-6 col-md-6 col-lg-5 col-xl-4">
       <div><a href="#food" data-text="menu">menu</a></div>
       <div><a href="https://zaraatx.square.site" data-text="order">order</a></div>
       <div><a href="#contact" data-text="contact">contact</a></div>
     </div>
-  </nav>
+  </nav>-->
 {% endblock navbar %}
 
 {% block content %}
@@ -37,10 +37,10 @@
       <div class="row justify-content-center">
         <div class="col-11">
           <img id="home-logo" class="img-fluid"
-            src="{{ url_for('static', filename='img/logo.svg') }}" alt="Zara on the Road">
+            src="{{ url_for('static', filename='img/logo.svg') }}" alt="Sarah's on the Road">
         </div>
       </div>
-      <div class="home-next row">
+      <!--<div class="home-next row">
         <a href="#food">
           <h2>
             ENTER
@@ -50,7 +50,7 @@
             <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"/>
           </svg>
         </a>
-      </div>
+      </div>-->
     </div>
 
     <!--<div id="dine" class="home-section">
