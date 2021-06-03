@@ -11,8 +11,8 @@ $spacers: (
   5: $spacer * 3,
 );
 $enable-smooth-scroll: false;
-$body-color: navy;
-$primary-color: #4A8FE2;
+$body-color: #365F8F;
+$primary-color: #365F8F;
 $secondary-color: #b11e25;
 $hover-color: lighten($primary-color, 10%);
 $body-font: 'Montserrat', 'Helvetica', sans-serif;
@@ -252,7 +252,7 @@ a:before {
   height: 80px;
   border-bottom: 1px solid #ddd;
   transition: 0.3s;
-  color: $body-color
+  color: $primary-color;
 }
 
 .menu-link p {
@@ -303,7 +303,7 @@ a:before {
   position: relative;
   display: block;
   margin: 10rem auto calc(3rem);
-  max-height: calc(280px + 3vw);
+  max-height: calc(255px + 3vw);
 }
 
 #home-title {
@@ -358,10 +358,6 @@ a:before {
 .home-section {
   min-height: calc(100vh + 3px);
   overflow: auto;
-}
-
-.home-section a:hover {
-  color: $body-color;
 }
 
 .home-section.inverse {
