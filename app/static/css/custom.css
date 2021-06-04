@@ -5775,9 +5775,9 @@ a:before {
 }
 
 .btn.clr:hover {
-  color: #365F8F;
-  border-color: #365F8F;
-  background-color: transparent;
+  color: white;
+  background-color: #b11e25;
+  border-color: white;
 }
 
 .menu-link:hover {

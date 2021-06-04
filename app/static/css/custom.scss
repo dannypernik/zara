@@ -160,9 +160,9 @@ a:before {
 }
 
 .btn.clr:hover {
-  color: $body-color;
-  border-color: $body-color;
-  background-color: transparent;
+  color: white;
+  background-color: $secondary-color;
+  border-color: white;
 }
 
 .menu-link:hover {
